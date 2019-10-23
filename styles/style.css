@@ -45,16 +45,17 @@
 
 .header-content {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: -15px;
-    justify-content: center;}
+    justify-content: center;
+    z-index: 2;}
 
 .tittle-header {
     height: 60px;
     margin-left: auto;
     margin-right: auto;
     background-color:#099d8d;
-    opacity: 0.89;
+    opacity: 0.95;
     text-align: center;}
 
 .tittle-header h1 {
@@ -72,7 +73,7 @@
 .first-navigation {
     height: 45px;
     background-color: #14d9c4;
-    opacity: 0.84;
+    opacity: 0.95;
     text-align: center;
     display: flex;
     justify-content: space-evenly;}
@@ -332,7 +333,7 @@
         padding-right:45px;
         margin-top:0;
         background-color:#099d8d;
-        opacity: 0.89;
+        opacity: 0.95;
         text-align: right;
         justify-content: flex-end;}
 
