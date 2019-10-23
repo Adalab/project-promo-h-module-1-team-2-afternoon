@@ -297,11 +297,15 @@
     color: #54585a;
     text-align: center;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    }
 
 .footer-navigation a {
     color: #54585a;
     opacity: 0.75;}
+.footer-navigation a:hover {
+        color:#14d9c4;
+        opacity: 0.75;}
 
 .logo {
     width: 115.9px;
